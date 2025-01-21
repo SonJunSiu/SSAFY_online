@@ -1,7 +1,7 @@
 # 시퀀스형 연산자
 
-print()  #
-print()  #
+print('Gildong' + ' Hong')  #
+print('Hi' * 5)  #
 
-print()  #
-print()  #
+print([1, 2] + ['a', 'b'])  #
+print([1, 2] * 2)  #

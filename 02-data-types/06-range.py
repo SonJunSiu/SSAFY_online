@@ -8,9 +8,9 @@ print(my_range_2)  # range(1, 10)
 print(my_range_3)  # range(5, 0, -1)
 
 # 리스트로 형 변환 시 데이터 확인 가능
-print()  # [0, 1, 2, 3, 4]
-print()  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print()  # [5, 4, 3, 2, 1]
+print(list(my_range_1))  # [0, 1, 2, 3, 4]
+print(list(my_range_2))  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(list(my_range_3))  # [5, 4, 3, 2, 1]
 
 
 # 값의 범위 규칙
