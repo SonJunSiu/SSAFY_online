@@ -1,7 +1,12 @@
 items = ['apple', 'banana', 'coconut']
 
+for item in items:
+    print(item)
 
 country = 'Korea'
+
+for char in country:
+    print(char)
 
 
 my_dict = {
@@ -10,9 +15,15 @@ my_dict = {
     'z': 30,
 }
 
+for key in my_dict:
+    print(key)
+    print(my_dict[key])
+
 
 numbers = [4, 6, 10, -8, 5]
 
+for idx in range(len(numbers)):
+    numbers[idx] = numbers[idx] * 2
 
 print(numbers)  # [8, 12, 20, -16, 10]
 
@@ -24,7 +35,10 @@ for outer in outers:
     for inner in inners:
         print(outer, inner)
 """
-??
+A c
+A d
+B c
+B d
 """
 
 

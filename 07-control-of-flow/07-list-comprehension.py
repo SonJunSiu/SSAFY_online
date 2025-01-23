@@ -5,10 +5,13 @@ squared_numbers = []
 for num in numbers:
     squared_numbers.append(num**2)
 
-print(squared_numbers)
+print(squared_numbers)  # [1, 4, 9, 16, 25]
 
 
 # 리스트 컴프리헨션
+squared_numbers2 = [num**2 for num in numbers]
+squared_numbers2 = list(num**2 for num in numbers)
+print(squared_numbers2)  # [1, 4, 9, 16, 25]
 
 
 # List Comprehension 활용 예시 - "2차원 배열 생성 시 (인접행렬 생성 시)"

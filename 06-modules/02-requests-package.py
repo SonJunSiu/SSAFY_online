@@ -10,3 +10,4 @@ response = requests.get(url).json()
 
 # 받은 응답 데이터(딕셔너리 형태)를 출력
 print(response)
+print(type(response))
