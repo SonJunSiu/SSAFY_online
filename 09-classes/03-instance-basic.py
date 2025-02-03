@@ -8,6 +8,9 @@ class Person:
 
 
 # 인스턴스 생성
-
+p1 = Person('Alice', 24)
+p2 = Person('Bella', 30)
 
 # 인스턴스 메서드 호출
+p1.introduce()
+p2.introduce()
