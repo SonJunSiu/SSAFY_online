@@ -1,5 +1,7 @@
 class MathUtils:
-    pass
+    @staticmethod
+    def add(a, b):
+        return a + b
 
 
-print()  #
+print(MathUtils.add(1, 2))  # 3

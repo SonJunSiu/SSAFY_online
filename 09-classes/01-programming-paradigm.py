@@ -24,3 +24,6 @@ class Person:
 
 alice = Person('Alice', 25)
 alice.introduce()  # 객체가 자신의 정보를 출력
+
+a = 'abc'
+print(type(a))  # <class 'str'>

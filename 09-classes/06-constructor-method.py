@@ -11,4 +11,4 @@ class Person:
 
 person1 = Person('지민')  # 인스턴스가 생성되었습니다.
 person1.greeting()  # 안녕하세요. 지민입니다.
-# Person.greeting(person1)
+Person.greeting(person1)  # 안녕하세요 지민입니다.
